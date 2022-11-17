@@ -5,11 +5,14 @@
 #•	Determinar los productos más vendidos
 #•	Predecir las ventas para 2018
 #EDA
+
 #Para comenzar el análisis, creamos nuevos data sets con las variables a estudiar. 
+
 #Como nuestro objetivo era analizar las ventas de Black Friday en los años que nos daba el data set, lo filtramos por año, mes y días exactos en el que cayó esta fecha. También filtramos por categoría para ver cuáles fueron las que más se vendieron. Llegamos a nuestro data set final, con una menor cantidad de valores que el original.
 
 #Con el fin de visualizar los resultados obtenidos de los diferentes data sets que creamos, usamos barplots, plots y boxplots.
 #Conclusiones que sacamos del análisis de los gráficos:
+
 #1.	Sales and Category: La categoría que más se vendió fue Technology, seguida de Furniture. La que menos se vendió fue Office Supplies.
 #2.	Sales and Year: a medida que pasan los años van aumentando las ventas de cada año. Leve disminución en 2015, pero luego siguen aumentando.
 #3.	Sales by Year and Month: menos en 2015, podemos ver que los meses en los que más se vende son noviembre y diciembre. Puede explicarse por fechas como cyber monday, black friday y además las fiestas.
@@ -23,6 +26,7 @@
 #Usando el corr_matrix, calculamos el coeficiente de correlación de Pearson.
 #Sabemos que, mientras más cercano a uno es el valor del CP, más alta es la correlación/asociación entre variables.
 #Observamos que:
+
 #1.	La mayor correlación se da entre Sales y Year. Hay una relación entre la cantidad de ventas y el año. Recordemos lo observado en las gráficas.
 #2.	Luego, dentro de las categorías, la mayor correlación se da entre sales y Technology (coincide con lo que observamos en los gráficos), lo sigue furniture y por último office supplies.
 #3.	A pesar de esto, los coeficientes obtenidos no son tan cercanos a 1 e incluso hay resultados negativos, lo que indica que la relación entre las variables no es tan cercana.
@@ -35,8 +39,8 @@
 Elegimos el polinomio de grado 2 ya que es el que mejor se ajusta.
 
 #PREDICCIÓN
-
 #Luego de haber seleccionado el modelo, hicimos la predicción de ventas para el año 2018 el cual era uno de nuestros objetivos. De acuerdo al resultado obtenido, vemos que es mayor a las ventas del 2017 mostradas en la diapositiva. Acá también se ve reflejada la tendencia al aumento de las ventas a medida que pasan los años, la cual se puede explicar por:
+
 #1.	Mejora de las plataformas (las compras por internet son más rápidas y seguras)
 #2.	Ventajas para los usuarios (Comodidad que ofrece la compra online, no hay necesidad de ir hasta una tienda y menos pérdida de tiempo)
 #3.	Mayor cantidad de usuarios en internet a medida que pasan los años.
