@@ -28,6 +28,7 @@
 #Al llegar al análisis de la correlación, nos dimos cuenta de que en nuestro EDA faltaban datos, por lo que tuvimos que profundizar un poco más en lo que fue la limpieza de los datos, eliminando filas innecesarias y creando algunos más pequeños para ver con mayor claridad lo que queríamos.
 #Usando el corr_matrix, calculamos el coeficiente de correlación de Pearson.
 #Sabemos que, mientras más cercano a uno es el valor del CP, más alta es la correlación/asociación entre variables.
+
 #Observamos que:
 
 #1.	La mayor correlación se da entre Sales y Year. Hay una relación entre la cantidad de ventas y el año. Recordemos lo observado en las gráficas.
