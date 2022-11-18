@@ -1,18 +1,18 @@
 # Proyecto-anal-tica-Black-Friday
 # INTRODUCCIÓN
 
-# Nuestro como caso de Estudio fue el análisis de ventas en período de Black Friday para la cadena de supermercados/e-commerce Walmart
+# Nuestro caso de Estudio fue el análisis de ventas en período de Black Friday para la cadena de supermercados/e-commerce Walmart
 
 # Recordamos brevemente nuestros objetivos:
 # - Analizar las ventas de Black Friday en el período 2014-2017, determinado por nuestro dataset
 # - Determinar los productos más vendidos
 # -  Predecir las ventas para 2018
 
+
 # EDA
-
 # Para comenzar el análisis, creamos nuevos data sets con las variables a estudiar. 
-
 # Como nuestro objetivo era analizar las ventas de Black Friday en los años que nos daba el data set, lo filtramos por año, mes y días exactos en el que cayó esta fecha. También filtramos por categoría para ver cuáles fueron las que más se vendieron. Llegamos a nuestro data set final, con una menor cantidad de valores que el original.
+
 
 # Con el fin de visualizar los resultados obtenidos de los diferentes data sets que creamos, usamos barplots, plots y boxplots.
 # Conclusiones que sacamos del análisis de los gráficos:
