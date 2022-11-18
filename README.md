@@ -1,5 +1,5 @@
 # Proyecto-anal-tica-Black-Friday
-#INTRODUCCIÓN
+INTRODUCCIÓN
 
 # Nuestro como caso de Estudio fue el análisis de ventas en período de Black Friday para la cadena de supermercados/e-commerce Walmart
 
